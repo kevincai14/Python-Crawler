@@ -8,3 +8,4 @@ print(res.text)
 
 with open("res.txt", "w", encoding="utf-8") as file:
     file.write(res.text)
+
