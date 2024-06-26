@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>出发航班-三亚凤凰国际机场-官方网站</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/r/cms/www/default/fhjc/styles/mobiscroll_002.css">
+    <link rel="stylesheet" href="/r/cms/www/default/fhjc/styles/mobiscroll.css">
+    <link rel="stylesheet" href="/r/cms/www/default/fhjc/styles/mobiscroll_003.css">
+    <link rel="stylesheet" href="/r/cms/www/default/fhjc/styles/swiper.min.css">
+    <link rel="stylesheet" href="/r/cms/www/default/fhjc/styles/main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="imagemode" content="force">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <script src="/r/cms/www/default/fhjc/js/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+	localStorage.setItem('base', '');
+</script>
+<script src="/r/cms/www/default/js/sm.js"></script>
+<script src="/r/cms/www/default/js/crypto-js.js"></script>
+<script src="/r/cms/www/default/js/jquery.my-message.1.1.js"></script>
+<script src="/r/cms/www/default/js/jquery.validate.js"></script>
+<script src="/r/cms/www/default/js/jquery.page.js"></script>
+<script src="/r/cms/www/default/js/public.js" type="text/javascript" charset="utf-8"></script>
+<script src="/r/cms/www/default/js/app.js"></script>
+<script src="/r/cms/www/default/js/permCheck.js" type="text/javascript" charset="utf-8"></script>
+<script src="/r/cms/www/default/js/siteSurver.js"></script>
+<!-- pc版 -->
+    <header class="container-fluid header-pc d-none d-md-block">
+        <div class="notice-box">
+            <div class="container">
+                <div class="hd">
+                    <div class="name">
+                        <img src="/r/cms/www/default/fhjc/images/header-icon-3.png" class="uc-icon24" alt="" />
+                        公告
+                    </div>
+                    <a href="" class="btn-close-notice"><i class="uc-font uc-close"></i></a>
+                </div>
+                <ul class="notice-list">
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="hd-top">
+            <div class="container">
+                <div class="left">
+                    <a href="" class="notice js_btnOpenNotice">
+                        <img src="/r/cms/www/default/fhjc/images/header-icon-2.png" class="uc-icon24" alt="" />
+                       	 公告
+                    </a>
+                    <a href="" class="weather">
+                        <img src="/r/cms/www/default/fhjc/images/header-icon-1.png" class="uc-icon32" alt="" />
+                         <span>三亚</span>
+                        <span id="qingPC"></span>
+                   		<span id="wenduPC"></span>
+                    </a>
+                </div>
+                <div class="right">
+                    <span class="call">24小时服务热线：0898-9612333</span>
+                    ｜
+                    <a href="javascript:showEn();" class="btn">EN</a>  
+                    <a href="javascript:;" onclick="aria.start()" class="btn">无障碍</a>                    ｜
+                    <a href="javascript:;" onclick="aria.oldFixedStart()" class="btn">适老化</a>｜
+                    <a href="javascript:upSearch();" class="btn">
+                        <img src="/r/cms/www/default/fhjc/images/header-icon-5.png" class="uc-icon24" alt=""  />
+                    </a>
+                    <script type="text/javascript">
+                    function upSearch() {
+    					window.open('/search.htm?q='+encodeURIComponent("航班"));
+    				}
+                    function showEn(){
+                    	//alert("三亚凤凰国际机场官方网站英文版正在建设中，给您带来不便，敬请谅解！");
+                    	document.location.href="https://en.sanyaairport.com/";
+                    }
+                    function showNo(){
+                    	alert("三亚凤凰国际机场官方网站无障碍功能正在建设中，给您带来不便，敬请谅解！");
+                    }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="hd-menu">
+            <div class="container">
+                <a href="/" class="logo">
+                    <img src="/r/cms/www/default/fhjc/images/logo-pc-white.png" class="i1" alt="" />
+                    <img src="/r/cms/www/default/fhjc/images/logo-pc.png" class="i2" alt="">
+                </a>
+                <ul class="list">
+                    <li class="hasSubMenu">
+                          <a href="/hbcx?type=all">航班信息</a>
+                        <div class="subMenuBig">
+                            <div class="container">                                
+                               <!--  
+                                <h3>航班信息</h3>
+                                 -->
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/hbcx?type=all"><img src="/u/cms/www/202311/14152511mjmv.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="right">                                           
+											 		 		<a href="/cfhb?type=C" class="sub-item"><span>出发航班</span></a>
+											 		 		<a href="/ddhb?type=D" class="sub-item"><span>到达航班</span></a>
+											 		 		<a href="/hbcx?type=all" class="sub-item"><span>航班查询</span></a>
+											 		 		<a href="/jchx.jhtml" class="sub-item"><span>机场航线</span></a>
+											 		 		<a href="/hkgs.jhtml" class="sub-item"><span>航空公司</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                   <li class="hasSubMenu">
+                         <a href="/gncf">乘机指南</a>
+                        <div class="subMenuBig">
+                            <div class="container">
+                              <!--  
+                                <h3>乘机指南</h3>
+                                 -->
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/gncf"><img src="/u/cms/www/202306/09154733qf0k.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="row">
+                                            <div class="right">
+											 		 		<a href="/gncf.jhtml" class="sub-item"><span>国内出发</span></a>
+											 		 		<a href="/gjcf.jhtml" class="sub-item"><span>国际出发</span></a>
+											 		 		<a href="/gndd.jhtml" class="sub-item"><span>国内到达</span></a>
+											 		 		<a href="/gjdd.jhtml" class="sub-item"><span>国际到达</span></a>
+											 		 		<a href="/jcdt.jhtml" class="sub-item"><span>机场地图</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hasSubMenu">
+                          <a href="/jcwx">旅客服务</a>
+                        <div class="subMenuBig">
+                            <div class="container">
+                              <!--  
+                                <h3>旅客服务</h3>
+                                 -->
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/jcwx"><img src="/u/cms/www/202307/05183910xd77.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="row">
+                                            <div class="right">
+											 		 		<a href="/jcwx.jhtml" class="sub-item"><span>机场问询</span></a>
+											 		 		<a href="/swrl.jhtml" class="sub-item"><span>失物认领</span></a>
+											 		 		<a href="/sclk.jhtml" class="sub-item"><span>首乘服务</span></a>
+											 		 		<a href="/zjfw.jhtml" class="sub-item"><span>值机服务</span></a>
+											 		 		<a href="/ajfw.jhtml" class="sub-item"><span>安检服务</span></a>
+											 		 		<a href="/tslk.jhtml" class="sub-item"><span>特殊旅客</span></a>
+											 		 		<a href="/gjtg.jhtml" class="sub-item"><span>国际通关</span></a>
+											 		 		<a href="/xlfw.jhtml" class="sub-item"><span>行李服务</span></a>
+											 		 		<a href="/gblfw" class="sub-item"><span>贵宾服务</span></a>
+											 		 		<a href="/hyfw.jhtml" class="sub-item"><span>货运服务</span></a>
+											 		 		<a href="/jcss.jhtml" class="sub-item"><span>机场设施</span></a>
+											 		 		<a href="/ysfw.jhtml" class="sub-item"><span>延伸服务</span></a>
+											 		 		<a href="/fwcn.jhtml" class="sub-item"><span>服务承诺</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                   <li class="hasSubMenu">
+                          <a href="/jcmsd">玩转机场</a>
+                        <div class="subMenuBig">
+                            <div class="container">
+                               <!-- 
+                                <h3>玩转机场</h3>
+                                 -->
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/jcmsd"><img src="/u/cms/www/202311/1415350278vl.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="row">
+                                            <div class="right">
+											 		 		<a href="/jcmsd.jhtml" class="sub-item"><span>机场免税店</span></a>
+											 		 		<a href="/hklyc.jhtml" class="sub-item"><span>机场综合体</span></a>
+											 		 		<a href="/cyms.jhtml" class="sub-item"><span>航站楼商铺</span></a>
+											 		 		<a href="/jdzs.jhtml" class="sub-item"><span>机场酒店</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hasSubMenu">
+                          <a href="/jcbs">机场交通</a>
+                        <div class="subMenuBig">
+                            <div class="container">
+                               <!-- 
+                                <h3>机场交通</h3>
+                                 -->
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/jcbs"><img src="/u/cms/www/202311/14151830mrza.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="row">
+                                            <div class="right">
+											 		 		<a href="/jcbs.jhtml" class="sub-item"><span>机场巴士</span></a>
+											 		 		<a href="/czqc.jhtml" class="sub-item"><span>出租汽车</span></a>
+											 		 		<a href="/tccd.jhtml" class="sub-item"><span>停车场地</span></a>
+											 		 		<a href="/gtdc.jhtml" class="sub-item"><span>高铁动车</span></a>
+											 		 		<a href="/zbdt.jhtml" class="sub-item"><span>周边地图</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hasSubMenu">
+                     <a href="/jcxw.jhtml">机场新闻</a>
+                       <!--  <div class="subMenuBig">
+                            <div class="container">
+                                <h3>党建引领</h3>
+                                <div class="row">
+                                    <div class="col-6 col-sm-6">
+                                        <div class="img"><a href="/djdt"><img src="/u/cms/www/202307/06171031zv6s.png" alt="" /></a></div>
+                                    </div>
+                                    <div class="col-18 col-sm-18 more-menu">
+                                        <div class="row">
+                                            <div class="right">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 手机版 -->
+    <header class="header-phone d-md-none">
+        <div class="notice-box">
+            <div class="hd">
+                <div class="name">
+                    <img src="/r/cms/www/default/fhjc/images/header-icon-2-green.png" class="uc-icon24" alt="" />
+                    <!-- <img src="/r/cms/www/default/fhjc/images/header-icon-3.png" class="uc-icon24" alt="" /> -->
+                    公告
+                </div>
+                <a href="" class="btn-close-notice"><i class="uc-font uc-close"></i></a>
+            </div>
+            <ul class="notice-list">
+            </ul>
+        </div>
+        <div class="hd-main">
+            <a href="/" class="logo">
+                <img src="/r/cms/www/default/fhjc/images/logo-white.png" class="i1" alt="">
+                <img src="/r/cms/www/default/fhjc/images/logo.png" class="i2" alt="">
+            </a>
+            <div class="right">
+                <a href="" class="notice js_btnOpenNotice">
+                    <img src="/r/cms/www/default/fhjc/images/header-icon-2.png" class="uc-icon24 i1" alt="" />
+                    <img src="/r/cms/www/default/fhjc/images/header-icon-2-green.png" class="uc-icon24 i2" alt="" />
+                    公告
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="alert-menu">
+        <ul class="list">
+            <li class="hasSubMenu">
+                  <a href="/hbcx?type=all">航班信息</a>
+                <div class="subMenu">
+                    <div class="con">
+						 		 		<a href="/cfhb?type=C">出发航班</a>
+						 		 		<a href="/ddhb?type=D">到达航班</a>
+						 		 		<a href="/hbcx?type=all">航班查询</a>
+						 		 		<a href="/jchx.jhtml">机场航线</a>
+						 		 		<a href="/hkgs.jhtml">航空公司</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+             <a href="/gncf">乘机指南</a>
+               	<div class="subMenu">
+                      <div class="con">
+						 		 		<a href="/gncf.jhtml">国内出发</a>
+						 		 		<a href="/gjcf.jhtml">国际出发</a>
+						 		 		<a href="/gndd.jhtml">国内到达</a>
+						 		 		<a href="/gjdd.jhtml">国际到达</a>
+						 		 		<a href="/jcdt.jhtml">机场地图</a>
+                      </div>
+                  </div>            
+            </li>
+            <li>
+                     <a href="/jcwx">旅客服务</a>
+                     	<div class="subMenu">
+                            <div class="con">
+								 		 		<a href="/jcwx.jhtml">机场问询</a>
+								 		 		<a href="/swrl.jhtml">失物认领</a>
+								 		 		<a href="/sclk.jhtml">首乘服务</a>
+								 		 		<a href="/zjfw.jhtml">值机服务</a>
+								 		 		<a href="/ajfw.jhtml">安检服务</a>
+								 		 		<a href="/tslk.jhtml">特殊旅客</a>
+								 		 		<a href="/gjtg.jhtml">国际通关</a>
+								 		 		<a href="/xlfw.jhtml">行李服务</a>
+								 		 		<a href="/gblfw">贵宾服务</a>
+								 		 		<a href="/hyfw.jhtml">货运服务</a>
+								 		 		<a href="/jcss.jhtml">机场设施</a>
+								 		 		<a href="/ysfw.jhtml">延伸服务</a>
+								 		 		<a href="/fwcn.jhtml">服务承诺</a>
+                            </div>
+                       </div>
+                    </li>
+                    <li>
+                    	 <a href="/jcmsd">玩转机场</a>
+                     	 <div class="subMenu">
+                            <div class="con">
+								 		 		<a href="/jcmsd.jhtml">机场免税店</a>
+								 		 		<a href="/hklyc.jhtml">机场综合体</a>
+								 		 		<a href="/cyms.jhtml">航站楼商铺</a>
+								 		 		<a href="/jdzs.jhtml">机场酒店</a>
+                            </div>
+                       </div> 
+                    </li>
+                    <li>
+                    	 <a href="/jcbs">机场交通</a>
+                     	<div class="subMenu">
+                            <div class="con">
+								 		 		<a href="/jcbs.jhtml">机场巴士</a>
+								 		 		<a href="/czqc.jhtml">出租汽车</a>
+								 		 		<a href="/tccd.jhtml">停车场地</a>
+								 		 		<a href="/gtdc.jhtml">高铁动车</a>
+								 		 		<a href="/zbdt.jhtml">周边地图</a>
+                            </div>
+                       </div>
+                    </li>
+                    <li>
+                   	  <a href="/jcxw.jhtml">机场新闻</a>
+                   	 <!-- <div class="subMenu">
+                            <div class="con">
+                            </div>
+                       </div> -->
+                    </li>
+        </ul>
+    </div>	
+ <script>
+ readCityinfo();
+ function readCityinfo() {
+	    $.ajax({
+	        url: "/appsvr/readWeather",
+	        data: {},
+	        success: function (result) {
+	        	 if(result.code==200){
+	        		 //alert(result.data.data.now.temperature);
+	        		 $("#wenduPC").html(result.data.data.now.temperature+"°C");
+	        		 $("#wenduPH").html(result.data.data.now.temperature+"°C");
+	        		 $("#qingPC").html(result.data.data.now.windDirection);
+	        		 $("#qingPH").html(result.data.data.now.windDirection);
+	        	} 
+	        }
+	    });
+}
+ 
+ 
+ </script>    <section class="uc-bannerAd">
+         <a href="" style="background-image: url(/u/cms/www/202309/17115936ygj8.jpg);">
+            <div class="container">
+                <div class="name">出发航班</div>
+            </div>
+        </a>
+    </section>
+    <section class="container-fluid g-filter">
+        <div class="container">
+            <ul class="filter">
+			 		 		<li class="on"><a href="/cfhb?type=C">出发航班</a></li>
+			 		 		<li ><a href="/ddhb?type=D">到达航班</a></li>
+			 		 		<li ><a href="/hbcx?type=all">航班查询</a></li>
+			 		 		<li ><a href="/jchx.jhtml">机场航线</a></li>
+			 		 		<li ><a href="/hkgs.jhtml">航空公司</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="container-fluid uc-departureArrival">
+        <div class="container">
+           
+            <ul class="g-form">
+               <!--  <li>
+                    <span class="txt">航站楼</span>
+                    <div class="choose">
+                        <a href="" class="item on">T1航站楼</a>
+                        <a href="" class="item">T2航站楼</a>
+                    </div>
+                </li> -->
+                <li>
+                    <span class="txt"><i class="e1">类</i>别</span>
+                    <div class="choose">
+                        <a href="javascript:chooseType('21','GNJG')" class="item" id="GNJG" style="display:block">国内进港</a>
+                        <a href="javascript:chooseType('11','GJJG')" class="item" id="GJJG"  style="display:block">国际进港</a>
+                        <a href="javascript:chooseType('22','GNCG')" class="item" id="GNCG"  style="display:block">国内出港</a>
+                        <a href="javascript:chooseType('12','GJCG')" class="item" id="GJCG"  style="display:block">国际出港</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-box">
+                        <div class="item">
+                            <img src="/r/cms/www/default/fhjc/images/icon-date.png" class="uc-icon50" alt="" />
+                            <input value="" class="js_appDate uc-input" readonly="readonly" name="appDate" id="appDate" type="text">
+                            <i class="uc-font uc-arrow-down2"></i>
+                        </div>
+                       <!--  <div class="item">
+                            <img src="/r/cms/www/default/fhjc/images/icon-time.png" class="uc-icon50" alt="" />
+                            <input value="16:43" class="js_appTime uc-input" readonly="readonly" name="appTime" id="appTime" type="text">
+                            <i class="uc-font uc-arrow-down2"></i>
+                        </div> -->
+                        <div class="item">
+                            <img src="/r/cms/www/default/fhjc/images/icon-fly.png" class="uc-icon50" alt="" />
+                            <input type="text" class="uc-input" placeholder="输入航班号/城市" name="flightNumber" style="max-width: 210rem;" id="flightNumber"/>
+                        </div>
+                        <a href="javascript:search();" class="uc-btn">搜索</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="table">
+                <table id="sswgouHtml">
+               	   <!-- <tr>
+                        <th>航班号</th>
+                        <th>航空公司</th>
+                        <th>机型</th>
+                        <th>始发地</th>
+                        <th>终点站</th>
+                        <th>经停站</th>
+                        <th>计划降落</th>
+                        <th>实际降落</th>
+                        <th>状态</th>
+                   	</tr> 
+                   -->
+	               
+                </table>
+            </div>
+            <div class="operate">
+                <a href="javascript:searchMore();" class="uc-btn ">显示更多</a>
+            </div>
+        </div>
+    </section>
+<footer class="container-fluid">
+        <div class="container">
+            <div class="row ft1">
+                <div class="col-24 col-sm-6 logo-box">
+                    <a href="/" class="logo">
+                        <img src="/r/cms/www/default/fhjc/images/logo-footer.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-24 col-sm-10 menu-box">
+                    <ul class="row menu">
+                        <li class="col-8">
+                            <a href="/jcjs">机场介绍</a>
+                            <a href="/djjs">党建引领</a>
+                            <a href="/jcry">机场荣誉</a>
+                            <a href="/rczp.jhtml">招贤纳士</a>
+                            <a href="/lxwm">联系我们</a>
+                        </li>
+                        <li class="col-8">
+                            <a href="/tzgg">通知公告</a>
+                            <a href="/zshz.jhtml">招商合作</a>
+                            <a href="/jggs">价格公示</a>                            
+                             <a href="/flsm/43652.jhtml">法律声明</a>
+                        </li>
+                        <li class="col-8">
+                            <a href="/yqlj.jhtml">友情链接</a>
+                            <a href="/lyzx">留言咨询</a>
+                            <a href="/tsjy">投诉建议</a>
+                            <a href="/interact-vote.htm?id=123" target="_blank">满意度调查</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-24 col-sm-8 code-box">
+                    <!-- <h3 class="d-none d-sm-block">关注我们</h3> -->
+                    <div class="con">
+                        <div class="item">
+                            <div class="code"><img src="/r/cms/www/default/fhjc/images/footer-code-1.png" alt="" /></div>
+                            <img src="/r/cms/www/default/fhjc/images/footer-code-icon-1.png" alt="" class="d-none d-sm-block icon">
+                            微信公众号
+                        </div>
+                        <div class="item">
+                            <div class="code"><img src="/r/cms/www/default/fhjc/images/footer-code-3.png" alt="" /></div>
+                            <img src="/r/cms/www/default/fhjc/images/footer-code-icon-3.png" alt="" class="d-none d-sm-block icon">
+                            微博
+                        </div>
+                        <div class="item">
+                            <div class="code"><img src="/r/cms/www/default/fhjc/images/footer-code-2.png" alt="" /></div>
+                            <img src="/r/cms/www/default/fhjc/images/footer-code-icon-2.png" alt="" class="d-none d-sm-block icon">
+                            抖音
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ft2">
+                <div class="col-24">
+                    <div class="cpt">
+                       <span></span>
+                        <span><a href="/">版权所有©三亚凤凰国际机场</a></span>
+                        <span><a href="https://beian.miit.gov.cn/#/Integrated/index">琼ICP备15002564号-1</a></span>
+                        <span>公安备案号：<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=46020402000054">46020402000054</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/r/cms/www/default/js/front.js" type="text/javascript" charset="utf-8"></script>
+    <script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=8485de752e896f19e63b8911063b7ccd " charset="utf-8" id="ariascripts"></script>
+	<script type="text/javascript">
+		$(function () {
+			Cms.siteFlow(""); 
+		});
+	</script> <div class="g-menu-phone">
+        <div class="hd">
+            <a href="/hbcx?type=all" class="item">航班信息</a>
+            <a href="/gncf" class="item">乘机指南</a>
+            <a href="/jcwx" class="item">旅客服务</a>
+            <a href="/jcdt" class="item">机场地图</a>
+            <a href="" class="btn"></a>
+        </div>
+        <div class="bd">
+            <div class="top">
+                <a href="/" class="weather">
+                    <img src="/r/cms/www/default/fhjc/images/header-icon-1.png" class="uc-icon32" alt="" />
+                    <span>三亚</span>
+                    <span id="wenduPH"></span>
+                    <span id="qingPH"></span>
+                </a>
+                <div class="right">
+                    <span class="call">24小时服务热线：0898-9612333</span>
+                    	｜
+                    <a href="javascript:showEn();" class="btn-lang">EN</a>
+                    	<!-- ｜
+                    <a href="javascript:void(0)" onclick="aria.oldFixedStart()" class="btn-lang">适老化</a> -->
+                </div>
+            </div>
+           <div class="search-box">
+                <input type="text" class="uc-input" placeholder="｜ 请输入搜索内容"  id="searchKey"/>
+                <a href="javascript:seacherKey();" class="btn-search">
+                    <img src="/r/cms/www/default/fhjc/images/icon-search.png" class="uc-icon32" alt="" />
+                </a>
+            </div> 
+            <script>
+		            function seacherKey(){
+		    			var seaword=$("#searchKey").val();
+		    			document.location.href="/search.htm?q="+encodeURIComponent(seaword);
+		    		}
+		            function showEn(){
+                    	//alert("三亚凤凰国际机场官方网站英文版正在建设中，给您带来不便，敬请谅解！");
+                    	document.location.href="https://en.sanyaairport.com/";
+                    }
+
+            </script>
+            <ul class="list">
+                <li>                   
+                     <a  class="item on">航班信息<i></i></a>
+                    <div class="con" style="display: block;">                       
+						 		 		<a href="/cfhb?type=C" class="item">出发航班</a>
+						 		 		<a href="/ddhb?type=D" class="item">到达航班</a>
+						 		 		<a href="/hbcx?type=all" class="item">航班查询</a>
+						 		 		<a href="/jchx.jhtml" class="item">机场航线</a>
+						 		 		<a href="/hkgs.jhtml" class="item">航空公司</a>
+                    </div>
+                </li>
+                <li>
+                     <a class="item ">乘机指南<i></i></a>
+                    <div class="con">                       
+						 		 		<a href="/gncf.jhtml" class="item">国内出发</a>
+						 		 		<a href="/gjcf.jhtml" class="item">国际出发</a>
+						 		 		<a href="/gndd.jhtml" class="item">国内到达</a>
+						 		 		<a href="/gjdd.jhtml" class="item">国际到达</a>
+						 		 		<a href="/jcdt.jhtml" class="item">机场地图</a>
+                    </div>
+                </li>
+                <li>
+                    
+                     <a  class="item">旅客服务<i></i></a>
+                    
+                    <div class="con">                       
+						 		 		<a href="/jcwx.jhtml" class="item">机场问询</a>
+						 		 		<a href="/swrl.jhtml" class="item">失物认领</a>
+						 		 		<a href="/sclk.jhtml" class="item">首乘服务</a>
+						 		 		<a href="/zjfw.jhtml" class="item">值机服务</a>
+						 		 		<a href="/ajfw.jhtml" class="item">安检服务</a>
+						 		 		<a href="/tslk.jhtml" class="item">特殊旅客</a>
+						 		 		<a href="/gjtg.jhtml" class="item">国际通关</a>
+						 		 		<a href="/xlfw.jhtml" class="item">行李服务</a>
+						 		 		<a href="/gblfw" class="item">贵宾服务</a>
+						 		 		<a href="/hyfw.jhtml" class="item">货运服务</a>
+						 		 		<a href="/jcss.jhtml" class="item">机场设施</a>
+						 		 		<a href="/ysfw.jhtml" class="item">延伸服务</a>
+						 		 		<a href="/fwcn.jhtml" class="item">服务承诺</a>
+                    </div>
+                </li>
+                <li>
+                    
+                     <a class="item ">玩转机场<i></i></a>
+                   
+                    <div class="con">                       
+						 		 		<a href="/jcmsd.jhtml" class="item">机场免税店</a>
+						 		 		<a href="/hklyc.jhtml" class="item">机场综合体</a>
+						 		 		<a href="/cyms.jhtml" class="item">航站楼商铺</a>
+						 		 		<a href="/jdzs.jhtml" class="item">机场酒店</a>
+                    </div>
+                </li>
+                <li>
+                    
+                     <a  class="item">机场交通<i></i></a>
+                    
+                    <div class="con">                       
+						 		 		<a href="/jcbs.jhtml" class="item">机场巴士</a>
+						 		 		<a href="/czqc.jhtml" class="item">出租汽车</a>
+						 		 		<a href="/tccd.jhtml" class="item">停车场地</a>
+						 		 		<a href="/gtdc.jhtml" class="item">高铁动车</a>
+						 		 		<a href="/zbdt.jhtml" class="item">周边地图</a>
+                    </div>
+                </li>
+                <li>
+                    
+                     <a href="/jcxw.jhtml" class="item">机场新闻<i></i></a>
+                   
+                    <!-- <div class="con">                       
+                    </div> -->
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+     <script>
+		 readCityinfo();
+		 function readCityinfo() {
+			    $.ajax({
+			        url: "/appsvr/readWeather",
+			        data: {},
+			        success: function (result) {
+			        	 if(result.code==200){
+			        		 //alert(result.data.data.now.temperature);
+			        		 $("#wenduPC").html(result.data.data.now.temperature+"°C");
+			        		 $("#wenduPH").html(result.data.data.now.temperature+"°C");
+			        		 $("#qingPC").html(result.data.data.now.windDirection);
+			        		 $("#qingPH").html(result.data.data.now.windDirection);
+			        	} 
+			        }
+			    });
+		}
+ </script>
+ <script>
+        $(".list li a.item").click(function(e){
+    if($(this).next("div.con").length == 0){
+      $(".list li div.con").css("display","none");
+
+    }else{
+
+      if( $(this).hasClass("on")){
+        $(this).removeClass("on")
+      }else{
+        $(this).addClass("on").parent().siblings().children("a.item").removeClass("on");
+      }
+      
+      $(this).next("div.con").slideToggle(500).parent().siblings().children("div.con").slideUp(500);
+      console.log(1);
+    }
+     e.stopPropagation();
+  })
+    </script>    <a href="" class="g-goTop2 js_goTop"><img src="/r/cms/www/default/fhjc/images/icon-top.png" class="uc-icon50" alt="" /></a>
+    <script src="/r/cms/www/default/fhjc/js/mobiscroll_002.js"></script>
+    <script src="/r/cms/www/default/fhjc/js/mobiscroll_004.js"></script>
+    <script src="/r/cms/www/default/fhjc/js/mobiscroll.js"></script>
+    <script src="/r/cms/www/default/fhjc/js/mobiscroll_003.js"></script>
+    <script src="/r/cms/www/default/fhjc/js/mobiscroll_005.js"></script>
+   	<script src="/r/cms/www/default/fhjc/js/swiper.min.js"></script>
+    <script src="/r/cms/www/default/fhjc/js/main.js"></script>
+    <script>
+	var flightAttr='';
+ 	var page=1;
+    var totalPages;
+ 	
+    var type=getUrlKey('type')==null?'C':getUrlKey('type');
+    var seaword=getUrlKey('seaword');
+    
+    
+    //C:出港D:到港
+    if(type=='C'){    	
+    	document.getElementById('GNJG').style.display="none";    	
+    	document.getElementById("GJJG").style.display="none";
+    	document.getElementById('GNCG').className='item on';
+    	//默认国内出港
+    	flightAttr='22';
+    	queryDongtai(seaword,null,flightAttr,1);
+    }else if(type=='D'){
+    	document.getElementById('GNCG').style.display="none";    	
+    	document.getElementById("GJCG").style.display="none";
+    	document.getElementById('GNJG').className='item on';
+    	//默认国内进港
+    	flightAttr='21';
+    	queryDongtai(seaword,null,flightAttr,1);
+    }else{
+    	queryDongtai(seaword,null,null,1);
+    }
+    
+    function chooseType(value,className){
+    	//控制TAB选中状态
+    	document.getElementById(className).className='item on';
+    	var classNames=['GNCG','GNJG','GJCG','GJJG'];
+    	for(var i=0;i<classNames.length;i++){
+    		if(className!=classNames[i]){
+    			document.getElementById(classNames[i]).className='item';
+    		}
+    	} 
+    	flightAttr=value;
+    	seaword='';
+    	$("#appDate").val("");
+   		$("#flightNumber").val("");
+    	queryDongtai(seaword,null,flightAttr,1);
+    }
+    
+    //点击更多
+    function searchMore(){
+    	page=page+1;
+    	if(page<=totalPages){
+    		var planDate=$("#appDate").val();
+       		var flightNumber=$("#flightNumber").val();
+       		queryDongtai(flightNumber,planDate,flightAttr,page);
+    	}else{
+    		alert("更多已经到底了");
+    	}
+    	
+    }
+    
+    //搜索
+   	function search(){
+   		var planDate=$("#appDate").val();
+   		var flightNumber=$("#flightNumber").val();
+   		queryDongtai(flightNumber,planDate,flightAttr,1);
+   	}
+   
+  
+    function queryDongtai(flightNumber,planDate,flightAttr,page) {
+	    $.ajax({
+	        url: "/appsvr/pageHbdt",
+	        data: {
+	        	flightNumber:flightNumber,
+	        	planDate:planDate,
+	        	flightAttr:flightAttr,
+	        	size:20,
+	        	page:page
+	        },
+	        success: function (result) {
+	        	 if(result.code==200){	        		 
+	        		 var num =result.data.content.length;
+	        		 totalPages=result.data.totalPages;
+	        		 $("#sswgouHtml").html("");
+	        		 if(type=='D' || flightAttr==11 || flightAttr==21 ){
+	        			 var htmlStr="<tr><th>航班号</th><th>航空公司</th><th>始发地</th><th>终点站</th><th>经停站</th><th>计划降落</th><th>实际降落</th><th>行李口</th><th>出口</th><th>状态</th></tr>";
+		        		 if(num>0){	
+		        			 	
+			   	     			for(var i=0;i<result.data.content.length;i++){
+			   	     				var data=result.data.content[i];		   	     				
+			   	     				htmlStr=htmlStr+'<tr><td>'+data.flightNumber+'</td>'
+			   	     			        		+'<td> <a  class="link"><i class="d-none d-sm-inline">'+data.hkName+'</i></a>'
+			   	     			        		
+			   	     			     			+' <td>'+data.origin+'</td>'
+			   	     			     			+' <td>'+data.destination+'</td>'
+			   	     			     			+' <td>'+data.via+'</td>'
+			   	     			     			+' <td>'+checkNull(data.sdtDate)+'</td>'
+			   	     			     			+' <td>'+checkNull(data.adtDate)+'</td>'
+			   	     			     		    +' <td>'+data.belt+'</td>'
+			   	     			     		    +' <td>'+toGate(data.belt)+'</td>'
+			   	     			     			+' <td>'+getStatusValue(data.flightStatus)+'</td>'			   	     			     		   
+			   	     			        		+'</tr>';	    
+			   	     			}
+		        		} 
+		        		 $("#sswgouHtml").append(htmlStr); 
+	        		 }else{//出港
+	        			 var htmlStr="<tr><th>航班号</th><th>航空公司</th><th>始发地</th><th>终点站</th><th>经停站</th><th>计划起飞</th><th>实际起飞</th><th>值机柜台</th><th>登机口</th><th>状态</th></tr>";
+		        		 if(num>0){	
+		        			 	
+			   	     			for(var i=0;i<result.data.content.length;i++){
+			   	     				var data=result.data.content[i];		   	     				
+			   	     				htmlStr=htmlStr+'<tr><td>'+data.flightNumber+'</td>'
+			   	     			        		+'<td> <a  class="link"><i class="d-none d-sm-inline">'+data.hkName+'</i></a>'			   	     			        	
+			   	     			     			+' <td>'+data.origin+'</td>'
+			   	     			     			+' <td>'+data.destination+'</td>'
+			   	     			     			+' <td>'+data.via+'</td>'
+			   	     			     			+' <td>'+checkNull(data.sdtDate)+'</td>'
+			   	     			     			+' <td>'+checkNull(data.adtDate)+'</td>'
+			   	     			     		    +' <td>'+data.counter+'</td>'
+			   	     			     		    +' <td>'+data.gate+'</td>'
+			   	     			     			+' <td>'+getStatusValue(data.flightStatus)+'</td>'			   	     			     		    
+			   	     			        		+'</tr>';	    
+			   	     			}
+		        		} 
+		        		 $("#sswgouHtml").append(htmlStr); 
+	        		 }	 
+	        	} 
+	        }
+	    });
+	}
+    
+    function checkNull(val){
+    	if(null==val){
+    		return "";
+    	}else{
+    		var subVal =val.substring(5,16);
+    		return subVal;
+    	}
+    	
+    }
+    function toGate(blet){
+    	var gate="";
+    	if(blet!=''){
+    		var blets =blet.split(",");
+    		if(blets.length>0){
+    			for(var i=0;i<blets.length;i++){
+    				if(blets[i]==1 || blets[i]==2 || blets[i]==3){
+    					gate=gate+"A"+",";
+    				}if(blets[i]==21 || blets[i]==22 || blets[i]==23){
+    					gate=gate+"G"+",";
+    				}if(blets[i]==4 || blets[i]==5 ){
+    					gate=gate+"B"+",";
+    				}if(blets[i]==6 || blets[i]==7 ){
+    					gate=gate+"C"+",";
+    				}if(blets[i]==8 || blets[i]==9 ){
+    					gate=gate+"D"+",";
+    				}    				
+    			}
+    		}
+    		if(gate.split(",").length>1){
+    			gate=gate.substring(0,gate.length-1);
+    		}
+    	}
+    	return gate;
+    }
+    //转换
+	function getStatusValue(codeStr){
+		var value="";
+		if(codeStr=='DLY22'){
+			value="飞机晚到原因延误";
+		}if(codeStr=='CNL16'){
+			value="联检原因取消";
+		}if(codeStr=='CNL18'){
+			value="公司计划原因取消";
+		}if(codeStr=='DLY18'){
+			value="公司计划原因延误";
+		}if(codeStr=='DLY1'){
+			value="本场天气原因延误";
+		}if(codeStr=='DLY10'){
+			value="航班时刻安排原因延误";
+		}if(codeStr=='DLY11'){
+			value="前站天气原因延误";
+		}if(codeStr=='CNL1'){
+			value="本场天气原因取消";
+		}if(codeStr=='CNL11'){
+			value="前站天气原因取消";
+		}if(codeStr=='CNL3'){
+			value="下站天气原因取消";
+		}if(codeStr=='CNL20'){
+			value="旅客原因取消";
+		}if(codeStr=='DLY8'){
+			value="航行管制原因延误";
+		}if(codeStr=='CLS'){
+			value="清除状态";
+		}if(codeStr=='DLY5'){
+			value="机械故障原因延误";
+		}if(codeStr=='UB'){
+			value="催促登机";
+		}if(codeStr=='DLY2'){
+			value="航路天气原因延误";
+		}if(codeStr=='DLY6'){
+			value="台风天气原因延误";
+		}if(codeStr=='DLY7'){
+			value="航空公司原因延误";
+		}if(codeStr=='DLY9'){
+			value="运力调配原因延误";
+		}if(codeStr=='DLY14'){
+			value="本场机场原因延误";
+		}if(codeStr=='CNL6'){
+			value="台风天气原因取消";
+		}if(codeStr=='CNL9'){
+			value="运力调配原因取消";
+		}if(codeStr=='CNL12'){
+			value="空中交通管制原因取消";
+		}if(codeStr=='CNL13'){
+			value="机场原因取消";
+		}if(codeStr=='CNL4'){
+			value="天气原因取消";
+		}if(codeStr=='CNL5'){
+			value="机械故障原因取消";
+		}if(codeStr=='BRD0'){
+			value="开始登机";
+		}if(codeStr=='COM'){
+			value="前方起飞";
+		}if(codeStr=='DEP'){
+			value="已起飞";
+		}if(codeStr=='PSG FULL'){
+			value="客齐";
+		}if(codeStr=='RTN'){
+			value="返航";
+		}if(codeStr=='BRD1'){
+			value="登机结束";
+		}if(codeStr=='CNL'){
+			value="取消";
+		}if(codeStr=='ALTN'){
+			value="备降";
+		}if(codeStr=='DLY'){
+			value="延误";
+		}if(codeStr=='ARR0'){
+			value="到达";
+		}if(codeStr=='HH'){
+			value="滑回";
+		}if(codeStr=='STBOD'){
+			value="过站登机";
+		}if(codeStr=='DLY16'){
+			value="联检原因延误";
+		}if(codeStr=='CNL17'){
+			value="油料原因取消";
+		}if(codeStr=='DLY17'){
+			value="油料原因延误";
+		}if(codeStr=='CNL2'){
+			value="航路天气原因取消";
+		}if(codeStr=='CNL7'){
+			value="航空公司原因取消";
+		}if(codeStr=='CNL8'){
+			value="航行管制原因取消";
+		}if(codeStr=='DLY3'){
+			value="下站天气原因延误";
+		}if(codeStr=='CNL10'){
+			value="航班时刻安排原因取消";
+		}if(codeStr=='CNL15'){
+			value="其他机场原因取消";
+		}if(codeStr=='DLY15'){
+			value="其他机场原因取消";
+		}if(codeStr=='DLY19'){
+			value="离港系统原因延误";
+		}if(codeStr=='CNL19'){
+			value="离港系统原因取消";
+		}if(codeStr=='DLY20'){
+			value="旅客原因延误";
+		}if(codeStr=='CNL21'){
+			value="公共安全原因取消";
+		}if(codeStr=='DLY21'){
+			value="公共安全原因延误";
+		}
+
+		return value;
+	}
+    
+
+	function getUrlKey (name) {
+	        return decodeURIComponent(
+	            (new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null;
+	}
+	    
+
+    $(function() {
+    	var currYear = (new Date()).getFullYear();
+    	var currMonth = (new Date()).getMonth();
+    	var currDay = (new Date( )).getDate();
+        var opt = {};
+        opt.date = {
+            preset: 'date'
+        };
+        opt.datetime = {
+            preset: 'datetime'
+        };
+        opt.time = {
+            preset: 'time'
+        };
+        opt.default = {
+            theme: 'android-ics light',
+            display: 'modal',
+            mode: 'scroller',
+            dateFormat: 'yyyy-mm-dd',
+            lang: 'zh',
+            showNow: true,
+            nowText: "今天",
+            //startYear: currYear - 10,
+            //endYear: currYear + 10
+            startYear: currYear,
+			endYear:currYear,
+			minDate: new Date(currYear,currMonth,currDay-1),
+			maxDate:new Date(currYear, currMonth,currDay+1)
+        };
+        currMonth=currMonth+1;
+        if(currMonth<10){
+        	currMonth="0"+currMonth;
+        }if(currDay<10){
+        	currDay="0"+currDay;
+        }
+         $("#appDate").val(currYear+"-"+currMonth+"-"+currDay);
+        $(".js_appDate").mobiscroll($.extend(opt['date'], opt['default']));
+
+        var optDateTime = $.extend(opt['datetime'], opt['default']);
+        var optTime = $.extend(opt['time'], opt['default']);
+        $("#appDateTime").mobiscroll(optDateTime).datetime(optDateTime);
+
+        // $("#appTime").mobiscroll(optTime).time(optTime);
+        $(".js_appTime").mobiscroll(optTime).time(optTime);
+    });
+    </script>
+</body>
+
+</html>
